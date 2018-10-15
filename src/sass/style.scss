@@ -1,0 +1,18 @@
+body{
+  background: #dedede;
+  // background: red;
+}
+
+.name{
+  color: red;
+  font-size: 16px;
+  transform: rotateX(100);
+  display: flex;
+  line-height: 32px;
+}
+
+::placeholder {
+  color: gray;
+}
+
+@import './other';
